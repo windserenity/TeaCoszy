@@ -12,3 +12,12 @@ h1{
   font-family: Helvetica;
   text-align: center;
 }
+
+.tea_of_the_month_container img{
+  max-width: 200px;
+ 
+}
+
+.hero_container img{
+  max-height: 500px;
+}
