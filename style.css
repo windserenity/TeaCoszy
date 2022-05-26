@@ -1,48 +1,63 @@
-
-* { border: 1px solid rgb(114, 86, 86); }
+ /* * { border: 1px solid rgb(114, 86, 86); } * */
 
 html{
   height: 100%;
-  width: 100%
+  width: 100%;
+  
 }
 
 body {
   background-color: #000000;
   color: seashell;
   font-size: 22px;
-  opacity: 0.9;  
+
+  font-family: Helvetica, sans-serif;
  
 }
-header{
-  display: inline-flex;
+.nav_container{
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
 }
+
 
 #logo{
-  text-align: left;
-  display: flex;
+  flex: 1;
+  padding-left: 10px;
+
+}
+#logo img{
   height: 50px;
-  padding: 10px;
 }
 
-#nav{
-  display: inline-flex;
-
-  
-
+ul {
+  list-style: none;
+  display: flex;
+  text-decoration: underline;
+}
+ul li {
+  padding-left: 20px;
 }
 
-h1{
-  font-family: Helvetica;
+.hero_container{
+  position: relative;
   text-align: center;
+}
+
+ #hero_banner{
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  bottom: 500px;
+
 }
 
 .tea_of_the_month_container img{
   max-width: 200px;
 }
 
-.hero_container img{
-  max-height: 500px;
-}
+
 
 .locations_container img{
   max-height: 500px;
