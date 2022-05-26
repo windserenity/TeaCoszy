@@ -1,11 +1,34 @@
 
-* { border: 1px solid black; }
+* { border: 1px solid rgb(114, 86, 86); }
 
-html, body {
+html{
   height: 100%;
-  width: 100%;
-  background-color: #ccd0ef;
+  width: 100%
+}
+
+body {
+  background-color: #000000;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;  
+ 
+}
+header{
+  display: inline-flex;
+}
+
+#logo{
+  text-align: left;
+  display: flex;
+  height: 50px;
+  padding: 10px;
+}
+
+#nav{
+  display: inline-flex;
+
   
+
 }
 
 h1{
@@ -15,7 +38,6 @@ h1{
 
 .tea_of_the_month_container img{
   max-width: 200px;
- 
 }
 
 .hero_container img{
